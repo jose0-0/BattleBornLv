@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Cards from "./components/Cards";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Cards />
+      <Footer />
     </main>
   );
 };
