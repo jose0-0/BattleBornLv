@@ -1,10 +1,25 @@
 import { useState, useEffect, useRef } from "react";
-import { TiLocationArrow } from "react-icons/ti";
 import { useWindowScroll } from "react-use";
-import Button from "./Button.jsx";
 import gsap from "gsap";
 
-const navItems = ["Services", "Reviews", "Gallery", "Contact"];
+const navItems = [
+  {
+    title: "Services",
+    path: "#services",
+  },
+  {
+    title: "Reviews",
+    path: "#reviews",
+  },
+  {
+    title: "Gallery",
+    path: "/gallery",
+  },
+  {
+    title: "Contact",
+    path: "/contact",
+  },
+];
 const Navbar = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isNavVisible, setIsNavVisible] = useState(true);
@@ -42,25 +57,13 @@ const Navbar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           <div className="flex items-center gap-7">
             {/* <img src="/images/logo.png" className="w-10"/> */}
-            <span>Battle Born Lv</span>
-            <Button
-              id="product-button"
-              title="Products"
-              rightIcon={<TiLocationArrow />}
-              containerClass={
-                "bg-blue-50 md:flex hidden items-center justify-center "
-              }
-            />
+            <span className="text-white">Battle Born Lv</span>
           </div>
           <div className="flex h-full items-center">
             <div className="hidden md:block">
               {navItems.map((item) => (
-                <a
-                  key={item}
-                  href={`#${item.toLocaleLowerCase()}`}
-                  className="nav-hover-btn"
-                >
-                  {item}
+                <a key={item} href={item.path} className="nav-hover-btn">
+                  {item.title}
                 </a>
               ))}
             </div>
