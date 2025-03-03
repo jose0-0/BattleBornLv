@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 const Home = () => {
   return (
-    <main className="relative min-h-screen w-screen overflow-hidden">
+    <main className="relative min-h-full w-full overflow-hidden">
       <Navbar />
       <Hero />
       <Cards />
