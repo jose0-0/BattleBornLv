@@ -20,7 +20,7 @@ const Cards = () => {
   return (
     <div id="services" className="p-6 bg-[#f3f3f3]">
       <div className="bg-white border-black/20">
-        <div className="flex flex-col justify-center text-center items-center font-thin text-4xl my-4 pt-2">
+        <div className="uppercase flex flex-col justify-center text-center items-center font-thin text-4xl my-4 pt-2">
           Experience unparalleled auto care with our premium detailing services.
           <div className="bg-black rounded-md w-[70px] mx-[1rem] h-[2px] mt-2" />
         </div>
