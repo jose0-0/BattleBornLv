@@ -1,6 +1,7 @@
+import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Cards from "../components/Cards";
-import Navbar from "../components/Navbar";
+import MissionStatement from "../components/MissionStatement";
 import Footer from "../components/Footer";
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Cards />
+      <MissionStatement />
       <Footer />
     </main>
   );
