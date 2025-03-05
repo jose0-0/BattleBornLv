@@ -1,3 +1,5 @@
+import { useState, useRef } from "react";
+
 const areas = [
   {
     places: "Sky Canyon",
@@ -19,6 +21,43 @@ const areas = [
   },
 ];
 
+const BentoTilt = ({ children, className = "" }) => {
+  const [transformStyle, setTransformStyle] = useState("");
+  const itemRef = useRef();
+
+  const handleMouseMove = (e) => {
+    if (!itemRef.current) return;
+
+    const { left, top, width, height } =
+      itemRef.current.getBoundingClientRect();
+
+    const relativeX = (e.clientX - left) / width;
+    const relativeY = (e.clientY - top) / height;
+
+    const tiltX = (relativeY - 0.5) * 10;
+    const tiltY = (relativeX - 0.5) * -10;
+
+    const newTransform = `perspective(700px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale3d(0.95, 0.95, 0.95)`;
+
+    setTransformStyle(newTransform);
+  };
+
+  const handleMouseLeave = () => {
+    setTransformStyle("");
+  };
+  return (
+    <div
+      className={className}
+      ref={itemRef}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      style={{ transform: transformStyle }}
+    >
+      {children}
+    </div>
+  );
+};
+
 const ServiceableAreas = () => {
   return (
     <div
@@ -26,13 +65,13 @@ const ServiceableAreas = () => {
       className="w-full bg-white flex justify-center items-center py-16"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 p-5">
-        <div className="w-full">
+        <BentoTilt className="w-full">
           <img
             src="/images/grey-audi.png"
             alt="summary-image"
             className="w-[65rem] h-[40rem] object-cover object-center rounded-sm"
           />
-        </div>
+        </BentoTilt>
         <div className="pb-4">
           <div className="py-[60px] md:p-[40px]">
             <div className="flex flex-col">
