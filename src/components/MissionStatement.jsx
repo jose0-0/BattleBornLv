@@ -1,3 +1,41 @@
+import { useState, useRef } from "react";
+
+const BentoTilt = ({ children, className = "" }) => {
+  const [transformStyle, setTransformStyle] = useState("");
+  const itemRef = useRef();
+
+  const handleMouseMove = (e) => {
+    if (!itemRef.current) return;
+
+    const { left, top, width, height } =
+      itemRef.current.getBoundingClientRect();
+
+    const relativeX = (e.clientX - left) / width;
+    const relativeY = (e.clientY - top) / height;
+
+    const tiltX = (relativeY - 0.5) * 10;
+    const tiltY = (relativeX - 0.5) * -10;
+
+    const newTransform = `perspective(700px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale3d(0.95, 0.95, 0.95)`;
+
+    setTransformStyle(newTransform);
+  };
+
+  const handleMouseLeave = () => {
+    setTransformStyle("");
+  };
+  return (
+    <div
+      className={className}
+      ref={itemRef}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      style={{ transform: transformStyle }}
+    >
+      {children}
+    </div>
+  );
+};
 const MissionStatement = () => {
   return (
     <div className="w-full flex">
@@ -5,7 +43,7 @@ const MissionStatement = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="py-[60px] lg:pr-[40px] md:p-[40px] lg:pb-0 order-2 lg:order-none">
             <div className="flex flex-col">
-              <h2 className="font-thin text-4xl">
+              <h2 className="uppercase font-thin text-4xl">
                 Driven by Excellence: Our Mission
               </h2>
               <div className="bg-black rounded-md w-[70px] h-[2px] my-4" />
@@ -47,13 +85,13 @@ const MissionStatement = () => {
               </a>
             </div>
           </div>
-          <div>
+          <BentoTilt>
             <img
               src="/images/red-toyota.png"
               alt="image-8"
               className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
             />
-          </div>
+          </BentoTilt>
         </div>
       </div>
     </div>
