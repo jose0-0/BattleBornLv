@@ -3,7 +3,7 @@ const Packages = () => {
   return (
     <div id="packages" className="w-full bg-black/10">
       <div className="text-center py-5">
-        <div className="flex justify-center font-thin text-3xl">
+        <div className="flex justify-center font-thin text-5xl">
           CERAMIC COATING PACKAGES
         </div>
         <div className="bg-black rounded-md w-[70px] h-[2px] m-auto mt-4" />
@@ -38,13 +38,8 @@ const Packages = () => {
                   effort, keeping your car looking like new for years to come.
                 </div>
               </div>
-              <div className="text-xl">
-                STARTING AT $900 FOR{" "}
-                <span className="font-bold">COUPEs / SEDANs</span>
-              </div>
-              <div className="text-xl">
-                STARTING AT $1100 FOR{" "}
-                <span className="font-bold">TRUCKs / SUVs</span>
+              <div className="uppercase text-xl">
+                Starting at $100 for <b>all vehicle&apos;s types</b>
               </div>
             </div>
             <div className="pt-5">
@@ -89,41 +84,35 @@ const Packages = () => {
           <div className="py-[60px] lg:pr-[40px] md:p-[40px] lg:pb-0">
             <div className="flex flex-col ">
               <h2 className="uppercase font-thin text-4xl">
-                1 step Ceramic Coating & paint enhancement
+                5 Step Ceramic Coating (5 year)
               </h2>
               <div className="bg-black rounded-md w-[70px] h-[2px] my-4" />
             </div>
             <div className="flex flex-col gap-4 text-black">
               <div className="font-thin text-sm leading-7">
                 <div className="py-1">
-                  Our 1-Step Ceramic Coating with Paint Enhancement combines the
-                  best of both worlds—improving your vehicle&apos;s appearance
-                  while providing long-lasting protection. This service starts
-                  with a light paint enhancement, removing light swirl marks,
-                  scratches, and imperfections to restore a smooth, glossy
-                  finish.
+                  The 5-Year Ceramic Coating is a multi-step process that begins
+                  with decontaminating the paint to remove any waxes or existing
+                  protection. Next, I eliminate any iron contaminants from the
+                  surface and then prep the paint with panel prep. Once the
+                  paint is properly prepped, I apply the ceramic coating, allow
+                  it to cure, and carefully wipe off any excess while checking
+                  for high spots that may need correction. This ensures
+                  long-lasting protection and a smooth, glossy finish.
                 </div>
                 <div className="py-1">
-                  Next, we apply a premium ceramic coating that creates a
-                  durable barrier against dirt, water, UV rays, and scratches.
-                  The result is a stunning, high-gloss shine that enhances the
-                  depth of your paint and makes maintenance easier. With this
-                  all-in-one solution, your car will not only look incredible
-                  but also stay protected, with fewer washes needed and
-                  long-lasting defense against environmental damage. Enjoy
-                  superior protection and a flawless finish in just one step!
-                </div>
-                <div className="py-1">
-                  Inside, our team meticulously vacuums, wipes down, and
-                  conditions the interior, ensuring a pristine finish.
+                  If a 1-Step Polish and Ceramic Coating is selected, the
+                  process remains similar: after decontaminating and removing
+                  iron contaminants, I polish each panel with one pass, followed
+                  by panel prep and then the application of the ceramic coating.
                 </div>
               </div>
               <div className="text-xl">
-                STARTING AT $1200 FOR{" "}
+                STARTING AT $500 FOR{" "}
                 <span className="font-bold">COUPEs / SEDANs</span>
               </div>
               <div className="text-xl">
-                STARTING AT $1400 FOR{" "}
+                STARTING AT $700 FOR{" "}
                 <span className="font-bold">TRUCKs / SUVs</span>
               </div>
             </div>
@@ -153,33 +142,40 @@ const Packages = () => {
           <div className="py-[60px] lg:pr-[40px] md:p-[40px] lg:pb-0 order-2 lg:order-none">
             <div className="flex flex-col">
               <h2 className="uppercase font-thin text-4xl">
-                1 step ceramic coating (no polishing)
+                1 step polish with 5 year ceramic coating
               </h2>
               <div className="bg-black rounded-md w-[70px] h-[2px] my-4" />
             </div>
             <div className="flex flex-col gap-4">
               <div className="font-thin text-sm leading-7">
                 <div className="py-1">
-                  Protect your wheels from brake dust, road grime, and corrosive
-                  elements with our ceramic coating. This durable shield
-                  enhances gloss and makes cleaning effortless, helping to
-                  preserve the pristine appearance of your wheels.
+                  The 5-Year Ceramic Coating with Polish is a comprehensive,
+                  multi-step process designed to enhance and protect your
+                  vehicle&apos;s paint for years to come. The process begins
+                  with decontaminating the surface to remove any waxes,
+                  sealants, or previous protection. Next, I eliminate any iron
+                  contaminants from the paint, followed by a thorough polish to
+                  remove light swirl marks and imperfections, restoring a
+                  smooth, glossy finish.
                 </div>
                 <div className="py-1">
-                  Our ceramic coating creates a strong barrier that not only
-                  repels contaminants but also minimizes the risk of scratching
-                  and chipping. With its hydrophobic properties, water and dirt
-                  slide off easily, reducing the need for frequent cleaning.
-                  Enjoy the peace of mind that comes with knowing your wheels
-                  are safeguarded against the harsh elements of the road, while
-                  maintaining their stunning shine. Experience the difference
-                  with our ceramic coating, designed for long-lasting protection
-                  and effortless upkeep.
+                  Once the paint is perfected, I apply a premium panel prep to
+                  ensure proper bonding, then apply the 5-year ceramic coating.
+                  After letting it cure, I carefully wipe off any excess and
+                  check for high spots that may need correction. This
+                  combination of polishing and ceramic coating offers a
+                  mirror-like finish with superior protection, making
+                  maintenance easier and keeping your vehicle looking brand new
+                  for years.
                 </div>
               </div>
-              <div className="text-xl">+ $35 PER WHEEL (wheel face only)</div>
               <div className="text-xl">
-                + $50 PER WHEEL (Whole wheel coated with barrels included)
+                STARTING AT $850 FOR{" "}
+                <span className="font-bold">COUPEs / SEDANs</span>
+              </div>
+              <div className="text-xl">
+                STARTING AT $1150 FOR{" "}
+                <span className="font-bold">TRUCKs / SUVs</span>
               </div>
             </div>
             <div className="pt-5">
@@ -224,35 +220,41 @@ const Packages = () => {
           <div className="py-[60px] lg:pr-[40px] md:p-[40px] lg:pb-0">
             <div className="flex flex-col ">
               <h2 className="uppercase font-thin text-4xl">
-                1 ceramic coating & Polish
+                2 step polish with 5 year ceramic coating
               </h2>
               <div className="bg-black rounded-md w-[70px] h-[2px] my-4" />
             </div>
             <div className="flex flex-col gap-4 text-black">
               <div className="font-thin text-sm leading-7">
                 <div className="py-1">
-                  Our 1-Step Ceramic Coating with Polish provides a
-                  comprehensive solution for both enhancing and protecting your
-                  vehicle&apos;s paint. This service begins with a gentle polish
-                  that removes light swirl marks, scratches, and imperfections,
-                  restoring a smooth, glossy finish.
+                  The 2-Step Polish with 5-Year Ceramic Coating is the ultimate
+                  paint enhancement and protection package. This multi-step
+                  process begins with decontaminating the surface to remove any
+                  waxes, sealants, or previous protection, followed by the
+                  removal of iron contaminants. Then, I perform the first stage
+                  of polishing to eliminate deeper swirl marks and
+                  imperfections. After this, I complete a second polishing pass
+                  to refine the finish and achieve a smooth, mirror-like shine.
                 </div>
                 <div className="py-1">
-                  Once the surface is refined, we apply a high-quality ceramic
-                  coating that forms a protective barrier against dirt, water,
-                  UV rays, and scratches. The result is a beautifully enhanced
-                  paint job with a deep, mirror-like shine, along with
-                  long-lasting protection that makes maintenance a breeze. This
-                  all-in-one service gives you the best of both worlds: a
-                  flawless finish and superior protection, all in one step.
-                </div>
-                <div className="py-1">
-                  Enjoy enhanced clarity and a more comfortable, stress-free
-                  drive no matter the conditions.
+                  Once the paint is flawlessly prepared, I apply panel prep to
+                  ensure proper bonding, followed by the application of the
+                  5-year ceramic coating. The coating provides long-lasting
+                  protection, repelling dirt, water, UV rays, and scratches
+                  while maintaining that deep gloss and sleek finish. This
+                  service offers the highest level of paint correction and
+                  protection, leaving your vehicle looking pristine for years to
+                  come.
                 </div>
               </div>
-              <div className="text-xl">+ $100 FRONT WINDSHIELD ONLY</div>
-              <div className="text-xl">+ $80 ALL OTHER EXTERIOR WINDOWS</div>
+              <div className="text-xl">
+                STARTING AT $1200 FOR{" "}
+                <span className="font-bold">COUPEs / SEDANs</span>
+              </div>
+              <div className="text-xl">
+                STARTING AT $1600 FOR{" "}
+                <span className="font-bold">TRUCKs / SUVs</span>
+              </div>
             </div>
             <div className="pt-5">
               <a
