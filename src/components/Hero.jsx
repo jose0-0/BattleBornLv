@@ -111,7 +111,7 @@ const Hero = () => {
             onLoadedData={handleVideoLoad}
           />
         </div>
-        <h1 className="hero-heading absolute bottom-5 right-5 z-40 sm:px-10 text-white">
+        <h1 className="hero-heading absolute bottom-5 right-5 z-40 sm:px-10 px-5 text-white">
           Mobile Detailing
         </h1>
         <div className="absolute left-0 top-0 z-40 size-full ">
