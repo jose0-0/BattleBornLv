@@ -57,6 +57,8 @@ This command generates an optimized dist/ folder for deployment
 ## 📁 Project Structure
 
 ```bash
+/public
+ ├── assets/          # Images, Logos, and other static files
 /src
  ├── Components/      # Reusable UI components
  ├── Pages/           # Main website pages (Home, Services, Gallery, etc.)
