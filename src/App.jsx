@@ -3,6 +3,7 @@ import Home from "./Pages/Home";
 import CeramicCoatings from "./Pages/Ceramic-Coatings/CeramicCoatings";
 import DetailPackages from "./Pages/Detail-Packages/DetailPackages";
 import AdditionalServices from "./Pages/Additional-Services/AdditionalServices";
+import Gallery from "./Pages/Gallery/Gallery";
 import Contact from "./Pages/Contact";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/ceramic-coatings" element={<CeramicCoatings />} />
           <Route path="/detail-packages" element={<DetailPackages />} />
           <Route path="/additional-services" element={<AdditionalServices />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
