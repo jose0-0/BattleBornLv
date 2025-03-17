@@ -61,8 +61,8 @@ const Packages = () => {
           </div>
           <div>
             <img
-              src="/images/black-bmw.png"
-              alt="image-5"
+              src="/images/image-12.png"
+              alt="image-12"
               className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
             />
           </div>
@@ -76,8 +76,8 @@ const Packages = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div>
             <img
-              src="/images/black-bmw.png"
-              alt="image-5"
+              src="/images/image-3.png"
+              alt="image-3"
               className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
             />
           </div>
@@ -197,8 +197,8 @@ const Packages = () => {
           </div>
           <div>
             <img
-              src="/images/black-bmw.png"
-              alt="image-8"
+              src="/images/image-17.png"
+              alt="image-17"
               className="w-[65rem] h-[40rem] object-cover rounded-sm"
             />
           </div>
@@ -212,8 +212,8 @@ const Packages = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div>
             <img
-              src="/images/black-bmw.png"
-              alt="image-5"
+              src="/images/image-19.png"
+              alt="image-19"
               className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
             />
           </div>

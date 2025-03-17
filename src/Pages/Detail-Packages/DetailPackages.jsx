@@ -28,8 +28,8 @@ const DetailPackages = () => {
               </div>
             </div>
             <img
-              src="/images/red-toyota.png"
-              alt="ceramic-page-hero"
+              src="/images/image-10.png"
+              alt="image-10"
               className="w-full max-h-[700px] object-cover"
             />
           </div>
@@ -83,8 +83,8 @@ const DetailPackages = () => {
               </div>
             </div>
             <img
-              src="/images/red-toyota.png"
-              alt="image-4"
+              src="/images/image-14.png"
+              alt="image-14"
               className="w-[65rem] h-[40rem] object-cover rounded-sm"
             />
           </div>

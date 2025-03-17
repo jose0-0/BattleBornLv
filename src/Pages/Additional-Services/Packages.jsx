@@ -73,8 +73,8 @@ const Packages = () => {
             </div>
             <div>
               <img
-                src="/images/black-bmw.png"
-                alt="image-5"
+                src="/images/image-23.png"
+                alt="image-23"
                 className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
               />
             </div>

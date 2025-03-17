@@ -70,8 +70,8 @@ const AdditionalServices = () => {
               </div>
             </div>
             <img
-              src="/images/black-bmw.png"
-              alt="ceramic-page-hero"
+              src="/images/image-8.png"
+              alt="image-08"
               className="w-full max-h-[700px] object-cover"
             />
           </div>
@@ -153,8 +153,8 @@ const AdditionalServices = () => {
               </div>
             </div>
             <img
-              src="/images/red-toyota.png"
-              alt="image-4"
+              src="/images/image-22.png"
+              alt="image-22"
               className="w-[65rem] h-[40rem] object-cover rounded-sm"
             />
           </div>

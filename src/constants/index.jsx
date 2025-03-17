@@ -47,4 +47,76 @@ export const Images = [
     img: "/images/image-12.png",
     alt: "image-12",
   },
+  {
+    img: "/images/image-13.png",
+    alt: "image-13",
+  },
+  {
+    img: "/images/image-14.png",
+    alt: "image-14",
+  },
+  {
+    img: "/images/image-15.png",
+    alt: "image-15",
+  },
+  {
+    img: "/images/image-16.png",
+    alt: "image-16",
+  },
+  {
+    img: "/images/image-17.png",
+    alt: "image-17",
+  },
+  {
+    img: "/images/image-18.png",
+    alt: "images-18",
+  },
+  {
+    img: "/images/image-19.png",
+    alt: "images-19",
+  },
+  {
+    img: "/images/image-20.png",
+    alt: "image-20",
+  },
+  {
+    img: "/images/image-21.png",
+    alt: "image-21",
+  },
+  {
+    img: "/images/image-22.png",
+    alt: "image-22",
+  },
+  {
+    img: "/images/image-23.png",
+    alt: "image-23",
+  },
+  {
+    img: "/images/image-24.png",
+    alt: "image-24",
+  },
+  {
+    img: "/images/image-25.png",
+    alt: "image-25",
+  },
+  {
+    img: "/images/image-26.png",
+    alt: "image-26",
+  },
+  {
+    img: "/images/image-27.png",
+    alt: "image-27",
+  },
+  {
+    img: "/images/image-28.png",
+    alt: "image-28",
+  },
+  {
+    img: "/images/image-29.png",
+    alt: "image-29",
+  },
+  {
+    img: "/images/image-30.png",
+    alt: "image-30",
+  },
 ];
