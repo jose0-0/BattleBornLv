@@ -58,11 +58,10 @@ This command generates an optimized dist/ folder for deployment
 
 ```bash
 /src
- ├── assets/          # Images, logos, and other static files
- ├── components/      # Reusable UI components
- ├── pages/           # Main website pages (Home, Services, Gallery, etc.)
- ├── constants/       # Configuration and data files
- ├── styles/          # Global styling (Tailwind CSS)
+ ├── Components/      # Reusable UI components
+ ├── Pages/           # Main website pages (Home, Services, Gallery, etc.)
+ ├── Constants/       # Configuration and data files
+ ├── index.css/       # Global styling (Tailwind CSS)
  ├── App.jsx          # Root component
  ├── main.jsx         # Entry point
 ```
