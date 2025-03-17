@@ -31,7 +31,7 @@ const Gallery = () => {
           </div>
           <img
             src="/images/image-2.png"
-            alt="ceramic-page-hero"
+            alt="image-2"
             className="w-full max-h-[700px] object-cover"
           />
         </div>

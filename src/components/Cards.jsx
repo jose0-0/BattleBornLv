@@ -1,16 +1,16 @@
 const services = [
   {
-    img: "/images/black-bmw.png",
+    img: "/images/image-5.png",
     path: "/ceramic-coatings",
     title: "Ceramic Coatings",
   },
   {
-    img: "/images/red-toyota.png",
+    img: "/images/image-10.png",
     path: "/detail-packages",
     title: "Detail Packages",
   },
   {
-    img: "/images/grey-audi.png",
+    img: "/images/image-15.png",
     path: "/additional-services",
     title: "Additional-Services",
   },
