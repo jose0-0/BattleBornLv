@@ -1,10 +1,10 @@
 # BATTLE BORN LV MOBILE DETAILING
 
-## OVERVIEW
+## 📖 OVERVIEW
 
 This project is a premium vehicle detailing website that showcases a variety of detailing packages, ceramic coating services, add-ons, and a photo gallery of completed work. The site is designed to provide potential customers with a professional and user-friendly experience while exploring available services.
 
-## FEATURE
+## ✨ FEATURE
 
 - Detailed descriptions of various detailing packages
 
@@ -16,7 +16,7 @@ This project is a premium vehicle detailing website that showcases a variety of 
 
 - Clean and intuitive navigation
 
-## TECH STACK
+## 🛠 TECH STACK
 
 - REACT -- Frontend framework
 - Vite - Fast build tool for optimized development
@@ -54,7 +54,7 @@ npm run build
 
 This command generates an optimized dist/ folder for deployment
 
-## Project Structure
+## 📁 Project Structure
 
 ```bash
 /src
