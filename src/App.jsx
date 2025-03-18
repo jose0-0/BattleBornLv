@@ -4,8 +4,7 @@ import CeramicCoatings from "./Pages/Ceramic-Coatings/CeramicCoatings";
 import DetailPackages from "./Pages/Detail-Packages/DetailPackages";
 import AdditionalServices from "./Pages/Additional-Services/AdditionalServices";
 import Gallery from "./Pages/Gallery/Gallery";
-import Contact from "./Pages/Contact";
-
+import Contact from "./Pages/Contact/Contact";
 const App = () => {
   return (
     <main className="relative min-h-full w-full overflow-hidden">
