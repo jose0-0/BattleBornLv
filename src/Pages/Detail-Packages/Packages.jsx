@@ -53,7 +53,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href="/contact-us"
-                className="display flex justify-center items-center rounded-md bg-black text-sm text-white w-[250px] h-[60px] duration-300 hover:bg-gray-600"
+                className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
               </a>
@@ -61,7 +61,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href={"tel:" + phoneNumber}
-                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white w-[250px] h-[60px] duration-300"
+                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white md:w-[250px] w-full h-[60px] duration-300"
               >
                 CALL US
               </a>
@@ -132,7 +132,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href="/contact-us"
-                className="display flex justify-center items-center rounded-md bg-black text-sm text-white w-[250px] h-[60px] duration-300 hover:bg-gray-600"
+                className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
               </a>
@@ -140,7 +140,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href={"tel:" + phoneNumber}
-                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white w-[250px] h-[60px] duration-300"
+                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white md:w-[250px] w-full h-[60px] duration-300"
               >
                 CALL US
               </a>
@@ -194,7 +194,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href="/contact-us"
-                className="display flex justify-center items-center rounded-md bg-black text-sm text-white w-[250px] h-[60px] duration-300 hover:bg-gray-600"
+                className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
               </a>
@@ -202,7 +202,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href={"tel:" + phoneNumber}
-                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white w-[250px] h-[60px] duration-300"
+                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white md:w-[250px] w-full h-[60px] duration-300"
               >
                 CALL US
               </a>
@@ -277,7 +277,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href="/contact-us"
-                className="display flex justify-center items-center rounded-md bg-black text-sm text-white w-[250px] h-[60px] duration-300 hover:bg-gray-600"
+                className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
               </a>
@@ -285,7 +285,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href={"tel:" + phoneNumber}
-                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white w-[250px] h-[60px] duration-300"
+                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white md:w-[250px] w-full h-[60px] duration-300"
               >
                 CALL US
               </a>

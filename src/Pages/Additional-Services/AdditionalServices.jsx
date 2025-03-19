@@ -54,7 +54,7 @@ const AdditionalServices = () => {
             {/* overlay */}
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50" />
             <div className="absolute w-full h-full text-white flex flex-col justify-center">
-              <div className="uppercase px-8 sm:text-5xl md:text-7xl font-thin">
+              <div className="uppercase px-8 text-lg md:text-7xl font-thin">
                 Enhance Your Vehicle Care
                 <p className="text-sm font-thin">
                   Tailor Your Package with Specialized Add-Ons
@@ -63,9 +63,9 @@ const AdditionalServices = () => {
               <div className="px-8 py-5">
                 <a
                   href="#packages"
-                  className=" uppercase px-6 py-4 border rounded-md hover:bg-[white] hover:text-black duration-300"
+                  className="font-thin uppercase px-6 py-4 border text-white rounded-md hover:bg-yellow-300 hover:text-black hover:border-none duration-300"
                 >
-                  our packages
+                  Our packages
                 </a>
               </div>
             </div>
@@ -137,7 +137,7 @@ const AdditionalServices = () => {
                 <div className="pt-5">
                   <a
                     href="/contact-us"
-                    className="display flex justify-center items-center rounded-md bg-black text-sm text-white w-[250px] h-[60px] duration-300 hover:bg-gray-600"
+                    className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
                   >
                     GET A QUOTE
                   </a>
@@ -145,7 +145,7 @@ const AdditionalServices = () => {
                 <div className="pt-5">
                   <a
                     href={"tel:" + phoneNumber}
-                    className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white w-[250px] h-[60px] duration-300"
+                    className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white md:w-[250px] w-full h-[60px] duration-300"
                   >
                     CALL US
                   </a>

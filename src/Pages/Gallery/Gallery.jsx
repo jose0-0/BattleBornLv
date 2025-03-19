@@ -22,7 +22,7 @@ const Gallery = () => {
           {/* overlay */}
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50" />
           <div className="absolute w-full h-full text-white flex flex-col justify-center">
-            <div className="uppercase px-8 sm:text-5xl md:text-7xl font-thin">
+            <div className="uppercase px-8 text-3xl md:text-7xl font-thin">
               Picture Perfect Details
               <p className="text-sm font-thin">
                 See the stunning results of our expert detailing
@@ -61,7 +61,7 @@ const Gallery = () => {
           </a>
         </div>
       </div>
-      <div className="pb-10">{loading ? <Skeleton /> : <Card />}</div>
+      <div className="pb-16">{loading ? <Skeleton /> : <Card />}</div>
       <Footer />
     </div>
   );

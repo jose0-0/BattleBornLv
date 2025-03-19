@@ -45,7 +45,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href="/contact-us"
-                className="display flex justify-center items-center rounded-md bg-black text-sm text-white w-[250px] h-[60px] duration-300 hover:bg-gray-600"
+                className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
               </a>
@@ -53,7 +53,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href={"tel:" + phoneNumber}
-                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white w-[250px] h-[60px] duration-300"
+                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white md:w-[250px] w-full h-[60px] duration-300"
               >
                 CALL US
               </a>
@@ -119,7 +119,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href="/contact-us"
-                className="display flex justify-center items-center rounded-md bg-black text-sm text-white w-[250px] h-[60px] duration-300 hover:bg-gray-600"
+                className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
               </a>
@@ -127,7 +127,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href={"tel:" + phoneNumber}
-                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white w-[250px] h-[60px] duration-300"
+                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white md:w-[250px] w-full h-[60px] duration-300"
               >
                 CALL US
               </a>
@@ -181,7 +181,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href="/contact-us"
-                className="display flex justify-center items-center rounded-md bg-black text-sm text-white w-[250px] h-[60px] duration-300 hover:bg-gray-600"
+                className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
               </a>
@@ -189,7 +189,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href={"tel:" + phoneNumber}
-                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white w-[250px] h-[60px] duration-300"
+                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white md:w-[250px] w-full h-[60px] duration-300"
               >
                 CALL US
               </a>
@@ -207,7 +207,7 @@ const Packages = () => {
       {/* Package 4 */}
       <div
         id="package-2"
-        className="w-full flex justify-center mt-10 bg-white p-5 "
+        className="w-full flex justify-center mt-10 bg-white p-5 pb-16"
       >
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div>
@@ -259,7 +259,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href="/contact-us"
-                className="display flex justify-center items-center rounded-md bg-black text-sm text-white w-[250px] h-[60px] duration-300 hover:bg-gray-600"
+                className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
               </a>
@@ -267,7 +267,7 @@ const Packages = () => {
             <div className="pt-5">
               <a
                 href={"tel:" + phoneNumber}
-                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white w-[250px] h-[60px] duration-300"
+                className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white md:w-[250px] w-full h-[60px] duration-300"
               >
                 CALL US
               </a>

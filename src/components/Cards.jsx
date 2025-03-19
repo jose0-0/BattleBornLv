@@ -18,13 +18,13 @@ const services = [
 
 const Cards = () => {
   return (
-    <div id="services" className="p-6 bg-[#f3f3f3]">
+    <div id="services" className="p-4 bg-[#f3f3f3]">
       <div className="bg-white border-black/20">
         <div className="uppercase flex flex-col justify-center text-center items-center font-thin text-4xl my-4 pt-2">
           Experience unparalleled auto care with our premium detailing services.
           <div className="bg-black rounded-md w-[70px] mx-[1rem] h-[2px] mt-2" />
         </div>
-        <div className="h-[100%] px-[1rem] pb-[1rem] grid grid-col-1 md:grid-cols-3 gap-1">
+        <div className="h-[100%] px-[.5rem] pb-[1rem] grid grid-col-1 md:grid-cols-3 gap-1">
           {services.map((service, index) => {
             return (
               <a key={index} href={service.path}>
