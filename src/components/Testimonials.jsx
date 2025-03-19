@@ -2,7 +2,9 @@ const Testimonials = () => {
   return (
     <div id="reviews" className="w-full p-5 pb-16">
       <div className="flex flex-col justify-center items-center text-center">
-        <h1 className="text-3xl">Discover the Battle Born Difference</h1>
+        <h1 className="text-3xl font-thin uppercase">
+          Discover the Battle Born Difference
+        </h1>
         <div className="bg-black rounded-md w-[70px] mx-[1rem] h-[2px] my-4" />
         <span className="text-sm text-thin leading-7 p-5 max-w-[60rem] font-thin">
           Our satisfied customers speak for themselves—our expert detailing
