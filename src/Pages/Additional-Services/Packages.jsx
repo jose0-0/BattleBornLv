@@ -219,7 +219,7 @@ const Packages = () => {
             </div>
             <div>
               <img
-                src="/images/black-bmw.png"
+                src="/images/image-31.png"
                 alt="image-8"
                 className="w-[65rem] h-[40rem] object-cover rounded-sm"
               />

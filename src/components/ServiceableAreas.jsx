@@ -67,7 +67,7 @@ const ServiceableAreas = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 p-5">
         <BentoTilt className="w-full">
           <img
-            src="/images/image-30.png"
+            src="/images/image-46.png"
             alt="image-30"
             className="w-[65rem] h-[40rem] object-cover object-center rounded-sm"
           />

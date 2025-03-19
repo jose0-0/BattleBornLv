@@ -69,8 +69,8 @@ const Packages = () => {
           </div>
           <div>
             <img
-              src="/images/image-16.png"
-              alt="image-16"
+              src="/images/image-32.png"
+              alt="image-32"
               className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
             />
           </div>
@@ -225,8 +225,8 @@ const Packages = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div>
             <img
-              src="/images/image-2.png"
-              alt="image-2"
+              src="/images/image-35.png"
+              alt="image-35"
               className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
             />
           </div>
