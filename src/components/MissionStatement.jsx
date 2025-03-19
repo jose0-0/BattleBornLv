@@ -87,7 +87,7 @@ const MissionStatement = () => {
           </div>
           <BentoTilt>
             <img
-              src="/images/image-27.png"
+              src="/images/image-44.png"
               alt="image-27"
               className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
             />

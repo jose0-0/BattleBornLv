@@ -119,7 +119,7 @@ const AdditionalServices = () => {
                         <div key={fee}>
                           <ul>
                             <li>
-                              {fee.price} - {fee.product} - {fee.description}
+                              ${fee.price} - {fee.product} - {fee.description}
                             </li>
                           </ul>
                         </div>
