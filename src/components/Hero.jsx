@@ -1,6 +1,4 @@
 import { useState, useRef, useEffect } from "react";
-import Button from "./Button";
-import { TiLocationArrow } from "react-icons/ti";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -121,12 +119,14 @@ const Hero = () => {
               {" "}
               Experience showroom shine, wherever you are.{" "}
             </p>
-            <Button
-              id="go-to-gallery"
-              title="Gallery"
-              leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1"
-            />
+            <div className="py-5">
+              <a
+                href="/contact"
+                className=" uppercase px-6 py-4 border text-white rounded-md hover:bg-yellow-300 hover:text-black hover:border-none duration-300"
+              >
+                Contact us
+              </a>
+            </div>
           </div>
         </div>
       </div>

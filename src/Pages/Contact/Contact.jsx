@@ -123,7 +123,7 @@ const Contact = () => {
           {/* overlay */}
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50" />
           <div className="absolute w-full h-full text-white flex flex-col justify-center">
-            <div className="uppercase px-8 sm:text-5xl md:text-7xl font-thin">
+            <div className="uppercase px-8 text-3xl md:text-7xl font-thin">
               Contact Us
             </div>
           </div>

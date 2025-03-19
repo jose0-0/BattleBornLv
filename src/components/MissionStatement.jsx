@@ -71,7 +71,7 @@ const MissionStatement = () => {
             <div className="pt-5">
               <a
                 href="/ceramic-coatings"
-                className="uppercase display flex justify-center items-center rounded-md bg-black text-sm text-white w-[250px] h-[60px] duration-300 hover:bg-gray-600"
+                className="uppercase display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 ceramic coatings
               </a>
@@ -79,7 +79,7 @@ const MissionStatement = () => {
             <div className="pt-5">
               <a
                 href="/detail-packages"
-                className="uppercase display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black w-[250px] h-[60px] duration-300 hover:bg-black hover:text-white"
+                className="uppercase display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black md:w-[250px] w-full h-[60px] duration-300 hover:bg-black hover:text-white"
               >
                 Detail packages
               </a>
