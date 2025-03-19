@@ -67,20 +67,20 @@ let occupants = [
 
 const addOns = [
   {
-    name: "Engine Bay Cleaning",
+    name: "$40 - Engine Bay Cleaning",
     price: "- Starting $40",
   },
   {
-    name: "Leather Conditioner ",
+    name: "$40 - Leather Conditioner ",
     price: "- Starting $40",
   },
   {
-    name: "Leather Ceramic Protection",
-    price: 100,
+    name: "$100 - Leather Ceramic Protection",
+    price: "- Starting 100",
   },
   {
-    name: "Cloth Seat Protection",
-    price: 50,
+    name: "$50 - Cloth Seat Protection",
+    price: "- Starting 50",
   },
 ];
 const Contact = () => {
