@@ -104,8 +104,10 @@ const AdditionalServices = () => {
                         <div key={service}>
                           <ul>
                             <li>
-                              ${service.price} - {service.product} -{" "}
-                              {service.description}
+                              <b>
+                                ${service.price} - {service.product}
+                              </b>{" "}
+                              - {service.description}
                             </li>
                           </ul>
                         </div>
@@ -119,7 +121,10 @@ const AdditionalServices = () => {
                         <div key={fee}>
                           <ul>
                             <li>
-                              ${fee.price} - {fee.product} - {fee.description}
+                              <b>
+                                ${fee.price} - {fee.product}
+                              </b>{" "}
+                              - {fee.description}
                             </li>
                           </ul>
                         </div>
