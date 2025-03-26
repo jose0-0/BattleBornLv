@@ -252,9 +252,9 @@ const Contact = () => {
             {[...Array(numVehicles)].map((_, index) => (
               <div
                 key={index}
-                className="border p-4 rounded-md my-2 md:col-span-2"
+                className="border-2 border-gray-300 p-4 rounded-md my-2 md:col-span-2"
               >
-                <h3 className="text-lg font-medium mb-2">
+                <h3 className="text-lg font-thin underline bold mb-2">
                   Vehicle {index + 1}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -288,10 +288,58 @@ const Contact = () => {
                   </div>
 
                   {/* Add-Ons */}
-                  <div className="md:col-span-2">
-                    <label>Add-Ons</label>
+                  <div className="">
+                    <label>Add-Ons (Optional)</label>
                     <select
-                      name={`add-ons-${index + 1}`}
+                      name={`first-AddOn-${index + 1}`}
+                      className="field w-full h-12 bg-transparent border-2 border-gray-300 p-1 rounded-sm"
+                    >
+                      <option value="">Select an Add-On</option>
+                      {addOns.map((addOn, idx) => (
+                        <option key={idx} value={addOn.name}>
+                          {addOn.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* addOns */}
+                  <div className="">
+                    <label>Add-Ons (Optional)</label>
+                    <select
+                      name={`second-AddOn-${index + 1}`}
+                      className="field w-full h-12 bg-transparent border-2 border-gray-300 p-1 rounded-sm"
+                    >
+                      <option value="">Select an Add-On</option>
+                      {addOns.map((addOn, idx) => (
+                        <option key={idx} value={addOn.name}>
+                          {addOn.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* addOns */}
+                  <div className="">
+                    <label>Add-Ons (Optional)</label>
+                    <select
+                      name={`third-AddOn-${index + 1}`}
+                      className="field w-full h-12 bg-transparent border-2 border-gray-300 p-1 rounded-sm"
+                    >
+                      <option value="">Select an Add-On</option>
+                      {addOns.map((addOn, idx) => (
+                        <option key={idx} value={addOn.name}>
+                          {addOn.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* addOns */}
+                  <div className="">
+                    <label>Add-Ons (Optional)</label>
+                    <select
+                      name={`fourth-AddOn-${index + 1}`}
                       className="field w-full h-12 bg-transparent border-2 border-gray-300 p-1 rounded-sm"
                     >
                       <option value="">Select an Add-On</option>
