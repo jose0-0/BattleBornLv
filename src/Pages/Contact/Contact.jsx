@@ -83,8 +83,10 @@ const addOns = [
     price: "- Starting 50",
   },
 ];
+
 const Contact = () => {
   const [result, setResult] = useState("");
+  const [numVehicles, setNumVehicles] = useState(1);
 
   let key = import.meta.env.VITE_WEB3FORMS_KEY;
   let email = import.meta.env.VITE_EMAIL_ADDRESS;
@@ -93,7 +95,6 @@ const Contact = () => {
     e.preventDefault();
     setResult("Sending....");
     const formData = new FormData(e.target);
-
     formData.append("access_key", `${key}`);
 
     const response = await fetch("https://api.web3forms.com/submit", {
@@ -110,30 +111,30 @@ const Contact = () => {
         icon: "success",
       });
       e.target.reset();
+      setNumVehicles(1); // Reset number of vehicles after submission
     } else {
       console.log("Error", data);
       setResult(data.message);
     }
   };
+
   return (
     <div>
       <Navbar />
       <div className="relative">
-        <div>
-          {/* overlay */}
-          <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50" />
-          <div className="absolute w-full h-full text-white flex flex-col justify-center">
-            <div className="uppercase px-8 text-3xl md:text-7xl font-thin">
-              Contact Us
-            </div>
+        <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50" />
+        <div className="absolute w-full h-full text-white flex flex-col justify-center">
+          <div className="uppercase px-8 text-3xl md:text-7xl font-thin">
+            Contact Us
           </div>
-          <img
-            src="/images/image-10.png"
-            alt="image-10"
-            className="w-full max-h-[700px] object-cover"
-          />
         </div>
+        <img
+          src="/images/image-10.png"
+          alt="image-10"
+          className="w-full max-h-[700px] object-cover"
+        />
       </div>
+
       <div className="w-full flex flex-col justify-center items-center mx-auto my-25 font-thin px-8">
         <div className="font-thin max-w-[800px] flex flex-col text-center items-center">
           <p>
@@ -149,141 +150,233 @@ const Contact = () => {
           </p>
           <div className="bg-black rounded-md w-[70px] h-[2px] my-4" />
         </div>
+
         <div className="max-w-[600px]">
           <form
             onSubmit={onSubmit}
-            className="flex flex-col gap-4 p-8 mt-8 rounded-sm shadow-md"
+            className="grid grid-cols-1 md:grid-cols-2 gap-4 p-8 mt-8 rounded-sm shadow-md"
           >
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <label>Full Name</label>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="John Doe"
-                  className="field w-[100%] h-[50px] bg-transparent border-[2px] border-[#ddd] p-4 rounded-sm"
-                  required
-                />
-              </div>
-              <div>
-                <label>Email</label>
-                <input
-                  type="text"
-                  name="email"
-                  placeholder="example@gmail.com"
-                  className="field w-[100%] h-[50px] bg-transparent border-[2px] border-[#ddd] p-4 rounded-sm"
-                  required
-                />
-              </div>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <label>Phone Number</label>
-                <input
-                  type="text"
-                  name="phone-number"
-                  placeholder="(123)-456-7890"
-                  className="field w-[100%] h-[50px] bg-transparent border-[2px] border-[#ddd] p-4 rounded-sm"
-                  required
-                />
-              </div>
-              <div>
-                <label>Vehicle Information</label>
-                <input
-                  type="text"
-                  name="vehicle-information"
-                  placeholder="White 2020 Subaru BRZ"
-                  className="field w-[100%] h-[50px] bg-transparent border-[2px] border-[#ddd] p-4 rounded-sm"
-                  required
-                />
-              </div>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <label>Children or Pets?</label>
-                <select
-                  name="children-pets"
-                  className="field w-[100%] h-[50px] bg-transparent border-[2px] border-[#ddd] p-1 rounded-sm"
-                >
-                  <option value="">N/a</option>
-                  {occupants.map((occupant, index) => {
-                    return (
-                      <option key={index} value={occupant.value}>
-                        {occupant.value}
-                      </option>
-                    );
-                  })}
-                </select>
-              </div>
-              <div>
-                <label>Preferred Appointment Date</label>
-                <input
-                  type="datetime-local"
-                  name="preferred-appointment-date"
-                  className="field w-[100%] h-[50px] bg-transparent border-[2px] border-[#ddd] p-4 rounded-sm"
-                  required
-                />
-              </div>
-            </div>
+            {/* Full Name */}
             <div>
-              <label>Address</label>
+              <label>Full Name</label>
               <input
-                type="address"
-                name="address"
-                placeholder="123 Main St. Las Vegas, NV 89123"
-                className="w-[100%] h-[50px] bg-transparent border-[2px] border-[#ddd] p-4 rounded-sm"
+                type="text"
+                name="name"
+                placeholder="John Doe"
+                className="field w-full h-12 bg-transparent border-2 border-gray-300 p-4 rounded-sm"
                 required
               />
             </div>
+
+            {/* Email */}
             <div>
-              <label>Service(s)</label>
+              <label>Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="example@gmail.com"
+                className="field w-full h-12 bg-transparent border-2 border-gray-300 p-4 rounded-sm"
+                required
+              />
+            </div>
+
+            {/* Phone Number */}
+            <div>
+              <label>Phone Number</label>
+              <input
+                type="text"
+                name="phone"
+                placeholder="(555) 123-4567"
+                className="field w-full h-12 bg-transparent border-2 border-gray-300 p-4 rounded-sm"
+                required
+              />
+            </div>
+
+            {/* Preferred Appointment Date */}
+            <div>
+              <label>Preferred Appointment Date</label>
+              <input
+                type="datetime-local"
+                name="appointment-date"
+                className="field w-full h-12 bg-transparent border-2 border-gray-300 p-4 rounded-sm"
+                required
+              />
+            </div>
+
+            {/* Service Address */}
+            <div className="md:col-span-2">
+              <label>Service Address</label>
+              <input
+                type="text"
+                name="service-address"
+                placeholder="123 Main St, Las Vegas, NV 89123"
+                className="field w-full h-12 bg-transparent border-2 border-gray-300 p-4 rounded-sm"
+                required
+              />
+            </div>
+
+            {/* Children or Pets? */}
+            <div>
+              <label>Children or Pets?</label>
               <select
-                name="service"
+                name="children-pets"
                 className="field w-[100%] h-[50px] bg-transparent border-[2px] border-[#ddd] p-1 rounded-sm"
               >
-                <option value="">Select a Service</option>
-                {services.map((service, index) => {
+                <option value="">N/a</option>
+                {occupants.map((occupant, index) => {
                   return (
-                    <option key={index} value={service.name}>
-                      {service.name}
+                    <option key={index} value={occupant.value}>
+                      {occupant.value}
                     </option>
                   );
                 })}
               </select>
             </div>
             <div>
-              <label>Add-Ons(s)</label>
-              <select
-                name="add-ons"
-                className="field w-[100%] h-[50px] bg-transparent border-[2px] border-[#ddd] p-1 rounded-sm"
-              >
-                <option value="">Select a Service</option>
-                {addOns.map((addOn, index) => {
-                  return (
-                    <option key={index} value={addOn.name}>
-                      {addOn.name}
-                    </option>
-                  );
-                })}
-              </select>
+              <label>Number of Vehicles</label>
+              <input
+                type="number"
+                name="num-vehicles"
+                value={numVehicles}
+                onChange={(e) =>
+                  setNumVehicles(Math.max(1, Number(e.target.value)))
+                }
+                min="1"
+                max="10"
+                className="field w-full h-12 bg-transparent border-2 border-gray-300 p-4 rounded-sm"
+                required
+              />
             </div>
-            <div>
+
+            {/* Vehicle Sections */}
+            {[...Array(numVehicles)].map((_, index) => (
+              <div
+                key={index}
+                className="border-2 border-gray-300 p-4 rounded-md my-2 md:col-span-2"
+              >
+                <h3 className="text-lg font-thin underline bold mb-2">
+                  Vehicle {index + 1}
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {/* Make & Model */}
+                  <div>
+                    <label>Make & Model</label>
+                    <input
+                      type="text"
+                      name={`make-model-${index + 1}`}
+                      placeholder="e.g., Toyota Camry 2022"
+                      className="field w-full h-12 bg-transparent border-2 border-gray-300 p-4 rounded-sm"
+                      required
+                    />
+                  </div>
+
+                  {/* Service Selection */}
+                  <div>
+                    <label>Service</label>
+                    <select
+                      name={`service-${index + 1}`}
+                      className="field w-full h-12 bg-transparent border-2 border-gray-300 p-1 rounded-sm"
+                      required
+                    >
+                      <option value="">Select a Service</option>
+                      {services.map((service, idx) => (
+                        <option key={idx} value={service.name}>
+                          {service.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* Add-Ons */}
+                  <div className="">
+                    <label>Add-Ons (Optional)</label>
+                    <select
+                      name={`first-AddOn-${index + 1}`}
+                      className="field w-full h-12 bg-transparent border-2 border-gray-300 p-1 rounded-sm"
+                    >
+                      <option value="">Select an Add-On</option>
+                      {addOns.map((addOn, idx) => (
+                        <option key={idx} value={addOn.name}>
+                          {addOn.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* addOns */}
+                  <div className="">
+                    <label>Add-Ons (Optional)</label>
+                    <select
+                      name={`second-AddOn-${index + 1}`}
+                      className="field w-full h-12 bg-transparent border-2 border-gray-300 p-1 rounded-sm"
+                    >
+                      <option value="">Select an Add-On</option>
+                      {addOns.map((addOn, idx) => (
+                        <option key={idx} value={addOn.name}>
+                          {addOn.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* addOns */}
+                  <div className="">
+                    <label>Add-Ons (Optional)</label>
+                    <select
+                      name={`third-AddOn-${index + 1}`}
+                      className="field w-full h-12 bg-transparent border-2 border-gray-300 p-1 rounded-sm"
+                    >
+                      <option value="">Select an Add-On</option>
+                      {addOns.map((addOn, idx) => (
+                        <option key={idx} value={addOn.name}>
+                          {addOn.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* addOns */}
+                  <div className="">
+                    <label>Add-Ons (Optional)</label>
+                    <select
+                      name={`fourth-AddOn-${index + 1}`}
+                      className="field w-full h-12 bg-transparent border-2 border-gray-300 p-1 rounded-sm"
+                    >
+                      <option value="">Select an Add-On</option>
+                      {addOns.map((addOn, idx) => (
+                        <option key={idx} value={addOn.name}>
+                          {addOn.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
+              </div>
+            ))}
+
+            {/* User Message */}
+            <div className="md:col-span-2">
               <label>Your Message</label>
               <textarea
                 name="message"
-                className="field mess field w-[100%] h-[200px] bg-transparent border-[2px] border-[#ddd] p-4 rounded-sm resize-none"
+                className="field w-full h-48 bg-transparent border-2 border-gray-300 p-4 rounded-sm resize-none"
                 placeholder="Comments, Questions or Concerns?"
               />
             </div>
-            <button
-              type="submit"
-              className="w-[100%] h-14 bg-black hover:bg-gray-600 text-white rounded-sm font-thin duration-300 "
-            >
-              Submit
-            </button>
+
+            {/* Submit Button */}
+            <div className="md:col-span-2">
+              <button
+                type="submit"
+                className="w-full h-14 bg-black hover:bg-gray-600 text-white rounded-sm font-thin duration-300"
+              >
+                Submit
+              </button>
+            </div>
           </form>
         </div>
       </div>
+
       <Footer />
     </div>
   );
