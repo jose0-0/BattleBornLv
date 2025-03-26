@@ -32,6 +32,7 @@ const CeramicCoatings = () => {
             <img
               src="/images/image-20.png"
               alt="image-20"
+              loading="lazy"
               className="w-full max-h-[700px] object-cover"
             />
           </div>
@@ -87,6 +88,7 @@ const CeramicCoatings = () => {
             <img
               src="/images/image-7.png"
               alt="image-7"
+              loading="lazy"
               className="w-[65rem] h-[40rem] object-cover rounded-sm"
             />
           </div>

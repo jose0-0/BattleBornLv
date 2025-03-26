@@ -30,6 +30,7 @@ const DetailPackages = () => {
             <img
               src="/images/image-10.png"
               alt="image-10"
+              loading="lazy"
               className="w-full max-h-[700px] object-cover"
             />
           </div>
@@ -85,6 +86,7 @@ const DetailPackages = () => {
             <img
               src="/images/image-14.png"
               alt="image-14"
+              loading="lazy"
               className="w-[65rem] h-[40rem] object-cover rounded-sm"
             />
           </div>

@@ -32,6 +32,7 @@ const Gallery = () => {
           <img
             src="/images/image-2.png"
             alt="image-2"
+            loading="lazy"
             className="w-full max-h-[700px] object-cover"
           />
         </div>

@@ -69,6 +69,7 @@ const ServiceableAreas = () => {
           <img
             src="/images/image-46.png"
             alt="image-30"
+            loading="lazy"
             className="w-[65rem] h-[40rem] object-cover object-center rounded-sm"
           />
         </BentoTilt>

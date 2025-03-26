@@ -89,6 +89,7 @@ const MissionStatement = () => {
             <img
               src="/images/image-44.png"
               alt="image-27"
+              loading="lazy"
               className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
             />
           </BentoTilt>

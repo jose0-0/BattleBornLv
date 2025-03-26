@@ -75,6 +75,7 @@ const Packages = () => {
               <img
                 src="/images/image-23.png"
                 alt="image-23"
+                loading="lazy"
                 className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
               />
             </div>
@@ -90,6 +91,7 @@ const Packages = () => {
               <img
                 src="/images/black-bmw.png"
                 alt="image-5"
+                loading="lazy"
                 className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
               />
             </div>
@@ -221,6 +223,7 @@ const Packages = () => {
               <img
                 src="/images/image-31.png"
                 alt="image-8"
+                loading="lazy"
                 className="w-[65rem] h-[40rem] object-cover rounded-sm"
               />
             </div>
