@@ -131,6 +131,7 @@ const Contact = () => {
         <img
           src="/images/image-10.png"
           alt="image-10"
+          loading="lazy"
           className="w-full max-h-[700px] object-cover"
         />
       </div>

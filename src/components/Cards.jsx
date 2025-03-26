@@ -32,6 +32,7 @@ const Cards = () => {
                   <img
                     src={service.img}
                     alt="services-background"
+                    loading="lazy"
                     className="h-150 w-[900px] object-cover"
                   />
                   <div className="absolute inset-0 bg-black/30 hover:bg-white/20"></div>

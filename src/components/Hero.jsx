@@ -36,13 +36,11 @@ const Hero = () => {
         className="relative z-10 h-dvh w-full overflow-hidden"
       >
         <div>
-          <video
-            src="/videos/hero-1.mp4"
-            autoPlay
-            loop
-            muted
+          <img
+            src="/images/image-47.png"
+            alt="hero-image"
+            loading="lazy"
             className="absolute left-0 top-0 size-full object-cover object-center"
-            onLoadedData={handleVideoLoad}
           />
           <div className="absolute inset-0 bg-black/30" />
         </div>
@@ -72,20 +70,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-{
-  /* <div
-id="video-frame"
-className="relative z-10 h-dvh w-full overflow-hidden"
->
-<video
-  src="videos/hero-1.mp4"
-  autoPlay
-  loop
-  muted
-  className="absolute left-0 top-0 size-full object-cover object-center"
-  onLoadedData={handleVideoLoad}
-/>
-<div className="absolute inset-0 bg-black/30" />
-</div> */
-}

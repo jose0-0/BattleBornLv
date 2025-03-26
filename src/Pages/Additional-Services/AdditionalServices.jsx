@@ -72,6 +72,7 @@ const AdditionalServices = () => {
             <img
               src="/images/image-8.png"
               alt="image-08"
+              loading="lazy"
               className="w-full max-h-[700px] object-cover"
             />
           </div>
@@ -160,6 +161,7 @@ const AdditionalServices = () => {
             <img
               src="/images/image-22.png"
               alt="image-22"
+              loading="lazy"
               className="w-[65rem] h-[40rem] object-cover rounded-sm"
             />
           </div>
