@@ -5,19 +5,19 @@ import Swal from "sweetalert2";
 
 let services = [
   {
-    name: "1 step Ceramic Coating (1 Year)",
+    name: "1 Year Ceramic Coating",
     price: "- Starting at $100",
   },
   {
-    name: "5 Step Ceramic Coating (5 year)",
+    name: "5 Year Ceramic Coating",
     price: "- Starting $500",
   },
   {
-    name: "1 step polish with 5 year ceramic coating",
+    name: "1 Step polish with 5 year ceramic coating",
     price: "- Starting $850",
   },
   {
-    name: "2 step polish with 5 year ceramic coating",
+    name: "2 Step polish with 5 year ceramic coating",
     price: "- Starting $1200",
   },
   {

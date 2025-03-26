@@ -14,14 +14,14 @@ const Packages = () => {
           <div className="py-[60px] lg:pr-[40px] md:p-[40px] lg:pb-0 order-2 lg:order-none">
             <div className="flex flex-col">
               <h2 className="uppercase font-thin text-4xl">
-                1 step Ceramic Coating (1 Year)
+                1 Year Ceramic Coating
               </h2>
               <div className="bg-black rounded-md w-[70px] h-[2px] my-4" />
             </div>
             <div className="flex flex-col gap-4">
               <div className="font-thin text-sm leading-7">
                 <div className="py-1">
-                  Our 1-Step Ceramic Coating is a fast and efficient solution to
+                  Our 1-Year Ceramic Coating is a fast and efficient solution to
                   protect your vehicle&apos;s paint. This service applies a
                   durable ceramic coating that creates a long-lasting shield
                   against dirt, water, UV rays, and scratches. The coating
@@ -33,7 +33,7 @@ const Packages = () => {
                   reduces the need for frequent washing, as dirt and water slide
                   off easily. The hydrophobic properties keep your vehicle
                   cleaner for longer, while the UV protection prevents oxidation
-                  and fading. With our 1-Step Ceramic Coating, you&apos;ll enjoy
+                  and fading. With our 1-Year Ceramic Coating, you&apos;ll enjoy
                   a high-performance finish and lasting protection with minimal
                   effort, keeping your car looking like new for years to come.
                 </div>
@@ -84,7 +84,7 @@ const Packages = () => {
           <div className="py-[60px] lg:pr-[40px] md:p-[40px] lg:pb-0">
             <div className="flex flex-col ">
               <h2 className="uppercase font-thin text-4xl">
-                5 Step Ceramic Coating (5 year)
+                5 Year Ceramic Coating
               </h2>
               <div className="bg-black rounded-md w-[70px] h-[2px] my-4" />
             </div>
@@ -142,7 +142,7 @@ const Packages = () => {
           <div className="py-[60px] lg:pr-[40px] md:p-[40px] lg:pb-0 order-2 lg:order-none">
             <div className="flex flex-col">
               <h2 className="uppercase font-thin text-4xl">
-                1 step polish with 5 year ceramic coating
+                1 Step polish with 5 year ceramic coating
               </h2>
               <div className="bg-black rounded-md w-[70px] h-[2px] my-4" />
             </div>
