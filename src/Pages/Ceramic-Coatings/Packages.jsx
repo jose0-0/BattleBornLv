@@ -44,7 +44,7 @@ const Packages = () => {
             </div>
             <div className="pt-5">
               <a
-                href="/contact-us"
+                href="/contact"
                 className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
@@ -118,7 +118,7 @@ const Packages = () => {
             </div>
             <div className="pt-5">
               <a
-                href="/contact-us"
+                href="/contact"
                 className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
@@ -180,7 +180,7 @@ const Packages = () => {
             </div>
             <div className="pt-5">
               <a
-                href="/contact-us"
+                href="/contact"
                 className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
@@ -258,7 +258,7 @@ const Packages = () => {
             </div>
             <div className="pt-5">
               <a
-                href="/contact-us"
+                href="/contact"
                 className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
               >
                 GET A QUOTE
