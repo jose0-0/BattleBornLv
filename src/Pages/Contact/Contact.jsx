@@ -238,10 +238,18 @@ const Contact = () => {
               <input
                 type="number"
                 name="num-vehicles"
-                value={numVehicles}
-                onChange={(e) =>
-                  setNumVehicles(Math.max(1, Number(e.target.value)))
-                }
+                value={numVehicles === 0 ? "" : numVehicles}
+                onChange={(e) => {
+                  const value = e.target.value;
+                  setNumVehicles(
+                    value === "" ? "" : Math.max(1, Number(value))
+                  );
+                }}
+                onBlur={(e) => {
+                  if (e.target.value === "") {
+                    setNumVehicles(1);
+                  }
+                }}
                 min="1"
                 max="10"
                 className="field w-full h-12 bg-transparent border-2 border-gray-300 p-4 rounded-sm"
