@@ -89,7 +89,7 @@ const Packages = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2">
             <div>
               <img
-                src="/images/black-bmw.png"
+                src="/images/image-48.png"
                 alt="image-5"
                 loading="lazy"
                 className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
