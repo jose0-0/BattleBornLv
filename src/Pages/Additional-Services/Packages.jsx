@@ -229,6 +229,77 @@ const Packages = () => {
             </div>
           </div>
         </div>
+        {/* package 4 */}
+        <div
+          id="package-2"
+          className="w-full flex justify-center mt-10 bg-white p-5 "
+        >
+          <div className="grid grid-cols-1 lg:grid-cols-2">
+            <div>
+              <img
+                src="/images/image-49.png"
+                alt="image-5"
+                loading="lazy"
+                className="w-[65rem] h-[40rem] object-cover object-bottom rounded-sm"
+              />
+            </div>
+            <div className="py-[60px] lg:pr-[40px] md:p-[40px] lg:pb-0">
+              <div className="flex flex-col ">
+                <h2 className="uppercase font-thin text-4xl">Boat Services</h2>
+                <div className="bg-black rounded-md w-[70px] h-[2px] my-4" />
+              </div>
+              <div className="flex flex-col gap-4 text-black">
+                <div className="font-thin text-sm leading-7">
+                  <div className="py-1">
+                    Our Standard Boat Exterior Wash is tailored to keep your
+                    vessel clean, protected, and ready for the water
+                  </div>
+                  <div className="py-1">
+                    We begin with a gentle rinse to remove salt, dirt, and loose
+                    debris from the hull, deck, and other exposed surfaces. A
+                    marine-safe, pH-balanced foam wash is then applied to lift
+                    grime and contaminants without harming delicate finishes or
+                    hardware. Using soft microfiber mitts and specialized
+                    brushes, we hand-wash all key exterior areas including the
+                    hull, rails, cleats, and outboard motors, ensuring thorough
+                    yet scratch-free cleaning.
+                  </div>
+                  <div className="py-1">
+                    After rinsing, we dry the boat using high-quality towels and
+                    air blowers to eliminate water spots and prevent moisture
+                    buildup in seams and compartments.
+                  </div>
+                </div>
+                <div className="text-xl">
+                  STARTING AT $8 <span className="font-bold">/sqft</span>
+                </div>
+                <div className="text-xl">
+                  + Ceramic Coating (Call for a quote)
+                </div>
+                <div className="text-xl">+ $200 Interior Detail (optional)</div>
+                <div className="text-xl">+ $100 Paste Wax (optional)</div>
+                <div className="text-xl">+ $20 Quick Spray Wax (optional)</div>
+              </div>
+              <div className="pt-5">
+                <a
+                  href="/contact"
+                  className="display flex justify-center items-center rounded-md bg-black text-sm text-white md:w-[250px] w-full h-[60px] duration-300 hover:bg-gray-600"
+                >
+                  GET A QUOTE
+                </a>
+              </div>
+              <div className="pt-5">
+                <a
+                  href={"tel:" + phoneNumber}
+                  className="display flex justify-center items-center rounded-md bg-white text-sm text-black border-[1px] border-black hover:bg-black hover:text-white md:w-[250px] w-full h-[60px] duration-300"
+                >
+                  CALL US
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col text-center py-5"></div>
       </div>
     </div>
   );
