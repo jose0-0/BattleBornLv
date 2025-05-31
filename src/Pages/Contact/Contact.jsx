@@ -48,6 +48,10 @@ let services = [
     name: "Rv Cleaning",
     price: "- Starting $7/sqft",
   },
+  {
+    name: "Boat Cleaning",
+    price: "- Starting $8/sqft",
+  },
 ];
 
 let occupants = [
@@ -76,11 +80,27 @@ const addOns = [
   },
   {
     name: "$100 - Leather Ceramic Protection",
-    price: "- Starting 100",
+    price: "- Starting $100",
   },
   {
     name: "$50 - Cloth Seat Protection",
-    price: "- Starting 50",
+    price: "- Starting $50",
+  },
+  {
+    name: "$50 - Steam Cleaning (Carpets Only)",
+    price: "- Starting $50",
+  },
+  {
+    name: "$200 - Boat Interior Clean",
+    price: "- Stating $200",
+  },
+  {
+    name: "$100 - Paste Wax (Boats Only)",
+    price: "- Starting $100",
+  },
+  {
+    name: "$20 - Quick Wax (Boats Only)",
+    price: "- Starting $20",
   },
 ];
 

@@ -39,7 +39,7 @@ const Packages = () => {
                 </div>
               </div>
               <div className="uppercase text-xl">
-                Starting at $100 for <b>all vehicle&apos;s types</b>
+                Starting at $200 for <b>all vehicle&apos;s types</b>
               </div>
             </div>
             <div className="pt-5">

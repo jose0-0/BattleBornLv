@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 
 const areas = [
   {
-    places: "Sky Canyon",
+    places: "Skye Canyon",
   },
   {
     places: "Centennial Hills",
