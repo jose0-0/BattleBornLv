@@ -107,9 +107,9 @@ const Packages = () => {
                   every area, including pet hair removal if necessary. We then
                   address any stains to the best of our ability, ensuring the
                   carpets look refreshed and rejuvenated. Each interior surface
-                  is carefully scrubbed with specialized brushes and tools,
-                  providing a thorough &quot;factory reset&quot; to your
-                  vehicle&apos;s interior.
+                  is carefully scrubbed with specialized brushes, steam cleaning
+                  and tools, providing a thorough &quot;factory reset&quot; to
+                  your vehicle&apos;s interior.
                 </div>
                 <div className="py-1">
                   To complete the service, we clean the interior windows to a
@@ -248,10 +248,10 @@ const Packages = () => {
                   out crevices and vacuuming up all debris, including pet hair.
                   Stains are treated and removed, ensuring your carpets are left
                   looking like new. We give the entire interior a deep scrub
-                  with specialized brushes and tools, restoring it to a pristine
-                  condition. The final touch includes cleaning the interior
-                  windows to a flawless, streak-free finish and infusing the
-                  cabin with our signature scent.
+                  with specialized brushes, steaming cleaning, and tools,
+                  restoring it to a pristine condition. The final touch includes
+                  cleaning the interior windows to a flawless, streak-free
+                  finish and infusing the cabin with our signature scent.
                 </div>
                 <div className="py-1">
                   For the exterior, we begin with an intensive wheel cleaning
